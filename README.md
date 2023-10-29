@@ -56,7 +56,7 @@ where:
 It is defined as:
 
 $$
-Correlation = \frac{\sum{P_{Xi} \times LOG(P_{Xi})}}{LOG(N)}
+Correlation = \frac{ \sum{P_{Xi} \times LOG(P_{Xi})} }{ \sum{{X,i}{(Y_{X,i} - Y_{Ave})} }
 $$
 
 where:
