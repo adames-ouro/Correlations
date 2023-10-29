@@ -25,7 +25,7 @@ Pearson's correlation has some mathematical assumptions in order to be used prop
 It is defined as:
 
 $$
-Correlation = \frac{\sum{(X - X_{MEAN})*(Y - Y_{MEAN})}}{\sqrt{\sum{(X - X_{MEAN})^2}*\sum{(Y - Y_{MEAN})^2}}}
+Correlation = \frac{\sum{(X - X_{Ave})*(Y - Y_{Ave})}}{2} 
 $$
 
 
