@@ -56,7 +56,7 @@ where:
 It is defined as:
 
 $$
-Correlation = \frac{\sum{P_{Xi} \times LOG(P_{Xi})}{LOG(N)}
+Correlation = \frac{\sum{P_{Xi} \times LOG(P_{Xi})}}{LOG(N)}
 $$
 
 where:
