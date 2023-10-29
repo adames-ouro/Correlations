@@ -56,7 +56,7 @@ where:
 It is defined as:
 
 $$
-Correlation = \frac{ \sum{{X}{N_{X} * (\bar{Y}_{X} - \bar{Y})^2 } { 2 }
+Correlation = \frac{ 1 } { 2 }
 $$
 
 where:
