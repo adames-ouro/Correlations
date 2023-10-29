@@ -56,7 +56,7 @@ where:
 It is defined as:
 
 $$
-Correlation = \frac{-\sum{{X}{N_{X})
+Correlation = \frac{\sum{{X}{N_{X}){X,i}
 $$
 
 where:
