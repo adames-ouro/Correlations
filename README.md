@@ -55,8 +55,9 @@ where:
 
 It is defined as:
 
-![\frac{\sum_{X}{N_{X} \times (\bar{Y}_{X} - \bar{Y}) \times (\bar{Y}_{X} - \bar{Y})}} {\sum_{X,i}{(Y_{Xi} - \bar{Y}) \times (Y_{Xi} - \bar{Y})}}](https://latex.codecogs.com/svg.latex?Correlation%20%3D%20%5Cfrac%7B%5Csum_%7BX%7D%7BN_%7BX%7D%20%5Ctimes%20%28%5Cbar%7BY%7D_%7BX%7D%20-%20%5Cbar%7BY%7D%29%20%5Ctimes%20%28%5Cbar%7BY%7D_%7BX%7D%20-%20%5Cbar%7BY%7D%29%7D%20%7B%5Csum_%7BX%2Ci%7D%7B%28Y_%7BXi%7D%20-%20%5Cbar%7BY%7D%29%20%5Ctimes%20%28Y_%7BXi%7D%20-%20%5Cbar%7BY%7D%29%7D%7D)
-
+$$
+Correlation = \frac{\sum{P_{Xi} \times LOG(P_{Xi})}{LOG(N)}
+$$
 
 where:
 - $Y_{Xi}$ is each observation where X indicates the category that observation is in and i is the label of observation.
