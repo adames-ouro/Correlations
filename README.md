@@ -1,3 +1,34 @@
+# Correlations
+
+Correlation or dependence is any statistical relationship, whether causal or not. In the broadest sense, "correlation" may indicate any type of association.
+
+Correlations are useful because they can indicate a predictive relationship that can be exploited in practice.
+
+### Correlations: Pearson
+
+In general, this coefficient (Pearson) can be interpreted as follows:
+- **Magnitudes**:
+    - .00-.19 `very weak`
+    - .20-.39 `weak`
+    - .40-.59 `moderate`
+    - .60-.79 `strong`
+    - .80-1.0 `very strong`
+- **Sign**:
+    - `positive` indicate a proportional relationship
+    - `negative` indicate an inverse proportional relationship
+
+Pearson's correlation has some mathematical assumptions in order to be used properly. These can be summarized as:
+- Variables must be continuous.
+- Data must be linear.
+- Outliers affect the score.
+
+It is defined as:
+
+$$
+Correlation = \frac{\sum{(X - X_{MEAN})*(Y - Y_{MEAN})}}{\sqrt{\sum{(X - X_{MEAN})^2}*\sum{(Y - Y_{MEAN})^2}}}
+$$
+
+
 ### Correlations: Spearman
 
 Spearman does not assume a linear relationship nor restricts ordinal variables. 
