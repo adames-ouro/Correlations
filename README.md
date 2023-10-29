@@ -56,7 +56,7 @@ where:
 It is defined as:
 
 $$
-Correlation = \frac{ 1 } { 2 }
+Correlation =  \frac{\sum_{X}{N_{X}*(\bar{Y}_{X} - \bar{Y})*(\bar{Y}_{X} - \bar{Y})}}{\sum_{X,i}{(Y_{Xi} - \bar{Y})*(Y_{Xi} - \bar{Y})}}
 $$
 
 where:
