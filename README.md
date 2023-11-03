@@ -4,6 +4,8 @@ Correlation or dependence is any statistical relationship, whether causal or not
 
 Correlations are useful because they can indicate a predictive relationship that can be exploited in practice.
 
+---
+
 ### Correlations: Pearson
 
 In general, this coefficient (Pearson) can be interpreted as follows:
@@ -28,6 +30,7 @@ $$
 Correlation = \frac{\sum{(X_{i} - X_{Ave}) \times (Y_{i} - Y_{Ave})}}{\sum{(X_{i} - X_{Ave})^2} \times \sum{(Y_{i} - Y_{Ave})^2}} 
 $$
 
+---
 
 ### Correlations: Spearman
 
@@ -43,6 +46,7 @@ $$
 where:
 - N is the number of data points.
 
+---
 ### Correlation: Cramér’s V
 
 - Is a measure of association between two categorical features based on a nominal variation of Pearson’s Chi-Square Test.
@@ -62,6 +66,7 @@ where:
 - k is the number of categories in the first variable.
 - l is the number of categories in the second variable.
 
+---
 ### Correlation: Theil’s U
 
 - Theil’s U is a measure of the degree of inequality in a distribution.
@@ -79,6 +84,7 @@ where:
 - $P_{Xi}$ and $P_{Yi}$ are the probability of each value in the distributions X and Y.
 - N is the number of values in the distribution.
 
+---
 ### Correlation: Correlation Ratio
 
 - The Correlation Ratio answers the following question: Given a continuous number, how well can you know to which category it belongs to? 
@@ -96,6 +102,7 @@ where:
 - $\bar{Y}_{X}$ is the mean of the category X.
 - $\bar{Y}$ is the mean of the whole population.
 
+---
 
 ### Correlation: Time lagged cross correlation
 
